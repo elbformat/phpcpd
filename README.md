@@ -4,6 +4,12 @@
 
 ## Installation
 
+### Docker
+Simply scan your project with docker
+```
+docker run ghcr.io/elbformat/phpcpd:latest --version
+```
+
 This tool is distributed as a [PHP Archive (PHAR)](https://php.net/phar):
 
 ```bash

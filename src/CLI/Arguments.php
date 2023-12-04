@@ -12,17 +12,17 @@ namespace SebastianBergmann\PHPCPD;
 final class Arguments
 {
     /**
-     * @psalm-var list<string>
+     * @psalm-var list<non-empty-string>
      */
     private array $directories;
 
     /**
-     * @psalm-var list<string>
+     * @psalm-var list<non-empty-string>
      */
     private array $suffixes;
 
     /**
-     * @psalm-var list<string>
+     * @psalm-var list<non-empty-string>
      */
     private array $exclude;
 
@@ -64,7 +64,7 @@ final class Arguments
     }
 
     /**
-     * @psalm-return list<string>
+     * @psalm-return list<non-empty-string>
      */
     public function directories(): array
     {
@@ -72,7 +72,7 @@ final class Arguments
     }
 
     /**
-     * @psalm-return list<string>
+     * @psalm-return list<non-empty-string>
      */
     public function suffixes(): array
     {
@@ -80,7 +80,7 @@ final class Arguments
     }
 
     /**
-     * @psalm-return list<string>
+     * @psalm-return list<non-empty-string>
      */
     public function exclude(): array
     {

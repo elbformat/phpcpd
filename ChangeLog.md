@@ -2,6 +2,13 @@
 
 All notable changes in PHPCPD are documented in this file using the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
+## [6.0.4] - 2023-12-05
+
+### Changed
+
+* Ignore PHP Attributes (see https://github.com/sebastianbergmann/phpcpd/pull/209)
+* Added docker setup
+
 ## [6.0.3] - 2020-12-07
 
 ### Changed
